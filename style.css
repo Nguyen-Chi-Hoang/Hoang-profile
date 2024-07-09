@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #403d39;
+    background-image: url('image/profile_pic.jpg');
+    background-size:100% 100%;
+    background-blend-mode: multiply;
+}
+
+div {
+    float: left;
+}
+
+.btn {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 20px 0 0 20px;
+}
+
+
+.btn i {
+    margin-top: 23px;
+}
+
+
+.card {
+    margin-left: 10%;
+    background-color: white;
+    width: 400px;
+    height: 679px;
+}
+
+.card .top_group {
+    background-color: black;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;    
+}
+
+.card .top_group img {
+    width: 30%;
+    border-radius: 40%;
+    margin: 5% 0 0 35%;
+}
+
+.second_card {
+    margin-left: 10%;
+    border-top-left-radius: 20%;
+    background-color: #fca311;
+    width: 400px;
+    height: 679px;
+}
+
+.card .name {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    padding: 4% 10%;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.card .content {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: monospace;
+    transition: 1s;
+}
+
+.card .content:hover {
+    transition: 1s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social {
+    display: block;
+}
+
+.social p {
+    background-color: #fca311;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 30px;
+    transition: 1s;
+}
+
+.social p i {
+    margin-top: 8px;
+}
+
+.social p:hover {
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+}
