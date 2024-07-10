@@ -48,9 +48,27 @@ div {
 .second_card {
     margin-left: 10%;
     border-top-left-radius: 20%;
-    background-color: #fca311;
+    background-color: white;
     width: 400px;
     height: 679px;
+}
+
+.second_card .content {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    transition: 1s;
+}
+
+.second_card .sub_content {
+    font-size: 17px;
+    font-family: monospace;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.second_card a {
+    text-decoration: none;
 }
 
 .card .name {
@@ -99,4 +117,38 @@ div {
     cursor: pointer;
     background-color: white;
     transition: 1s;
+}
+
+.second_card .quote {
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5% 0;
+}
+
+@media only screen and (max-width: 1116px) {
+    .second_card {
+        display: none;
+    }
+    .card {
+        margin-left: 27%;
+    }
+}
+
+@media only screen and (max-width: 658px) {
+    .card {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 483px) {
+    .social p {
+        margin-left: 0;
+    }
+    .card {
+        width: 80%;
+    }
 }
